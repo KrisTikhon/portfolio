@@ -24,50 +24,7 @@
   body {
     font-family: Young serif, sans-serif;
 }
-  @media (min-width:999px) {
-    #navbar  {
-      font-size: 1.3rem !important;
-    } 
-    .welcome_section h1 {
-        font-size: 3.3rem !important;
-    }
-    .welcome_section p {
-        font-size: 1.4rem !important;
-    }
-  }
-  @media (min-width:365px) and (max-width: 565px) {  
-    .welcome_section h1 {
-        font-size: 1.9rem !important;
-    }
-    .welcome_section p {
-        font-size: 0.9rem !important;
-    }
-    .contact_links {
-      padding: 20px;
-      display: grid;
-      flex-direction: column;
-      flex-wrap: wrap;
 
-    }
-}
-  @media (max-width:365px) {  
-    #navbar  {
-        font-size: 0.8rem !important;
-      } 
-    .welcome_section h1 {
-        font-size: 1.5rem !important;
-    }
-    .welcome_section p {
-        font-size: 0.8rem !important;
-    }
-    .contact_links {
-      padding: 20px;
-      display: grid;
-      flex-direction: column;
-      flex-wrap: wrap;
-
-    }
-}
     /* welcome section */-->
   .welcome_section {
     display: flex;
@@ -233,4 +190,60 @@ img.logo-footer {
   display: inline;
   width: 20px;
   border-radius: 20px;
+}
+@media (min-width:999px) {
+  #navbar  {
+    font-size: 1.3rem;
+  } 
+  .welcome_section h1 {
+      font-size: 3.3rem;
+  }
+  .welcome_section p {
+      font-size: 1.4rem;
+  }
+}
+@media (min-width:365px) and (max-width: 565px) {  
+  .welcome_section h1 {
+      font-size: 1.9rem;
+  }
+  .welcome_section p {
+      font-size: 0.9rem;
+  }
+  .contact_links {
+    padding: 20px;
+    display: grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+  #h2project {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    font-size: 1.7rem;
+  }
+}
+@media (max-width:365px) {  
+  #navbar  {
+      font-size: 0.8rem;
+    } 
+  .welcome_section h1 {
+      font-size: 1.5rem;
+  }
+  .welcome_section p {
+      font-size: 0.8rem;
+  }
+  .contact_links {
+    padding: 20px;
+    display: grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+  #h2project {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size: 1.4rem;
+  }
 }

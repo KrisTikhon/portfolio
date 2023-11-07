@@ -208,6 +208,15 @@ img.logo-footer {
   #h2project {
     font-size: 4rem;
   }
+  #h2contact {
+    font-size: 5.5rem;
+  }
+  #contact_section p {
+    font-size: 2rem;
+  }
+  .contact_links a {
+    font-size: 1.8rem;
+  }
 }
 @media (min-width:599px) and (max-width: 898px) {
   #navbar  {
@@ -222,6 +231,13 @@ img.logo-footer {
   #h2project {
     font-size: 3rem;
   }
+  #h2contact {
+    font-size: 4rem;
+  }
+  #contact_section p {
+    font-size: 1.5rem;
+  }
+
 }
 @media (min-width:365px) and (max-width: 465px) {  
   .welcome_section h1 {
